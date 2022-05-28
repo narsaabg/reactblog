@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  color: blue;
+  font-size: 20px;
+}
+.container {
+  margin: 5%;
+}
+.navBar {
+  background-color: #f7f7f7;
+}
+.navBar > ul {
+  list-style: none;
+  display: flex;
+}
+.navBar > ul > li {
+  margin: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
+.navBar > ul > li:hover {
+  /* background-color:crimson; */
+  color: crimson;
+}
+.blogContainer {
+  /* margin:10px; */
+}
+.title {
+  padding: 4px;
+  font-size: 18px;
+}
+.description {
+  padding: 4px;
+}
+.footer {
+  background-color: #f7f7f7;
+}
+.footer > div > ul {
+  list-style: none;
+  display: flex;
+}
+.footer > div > ul > li {
+  margin: 2px;
+  padding: 2px;
+  cursor: pointer;
+}
+.show {
+  height: 100vh;
+}
